@@ -18,7 +18,17 @@ function App() {
   };
 
   return (
+
     <div>
+<div>
+  <nav className="navbar">
+    <a href="">Home</a>
+    <a href="">Features</a>
+    <a href="">Tools</a>
+    <a href="">setting</a>
+  </nav>
+</div>
+
       <h1>Fake News Detector</h1>
       <textarea onChange={(e) => setText(e.target.value)} />
       <button onClick={checkNews}>Check</button>
